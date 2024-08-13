@@ -30,7 +30,7 @@ class MenuScreen extends StatelessWidget {
           ListTile(
             title: Text('Pondcast'),
             onTap: () {
-              Navigator.pushNamed(context, '/screen3');
+              Navigator.pushNamed(context, '/screen4');
             },
           ),
         ],
