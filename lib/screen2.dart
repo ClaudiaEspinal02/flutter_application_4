@@ -6,12 +6,12 @@ class Screen2 extends StatefulWidget {
 }
 
 class _Screen2State extends State<Screen2> {
-  String _selectedCurrency = 'USD'; // Moneda seleccionada
-  String _conversionType = 'Compra'; // Tipo de conversión (Compra o Venta)
-  double _conversionRateCompraUSD = 24.6834; // Lempiras a Dólares
-  double _conversionRateVentaUSD = 24.8068; // Lempiras a Dólares
-  double _conversionRateCompraEUR = 24.6834 * 0.9; // Lempiras a Euros
-  double _conversionRateVentaEUR = 24.8068 * 0.9; //Lempiras a Euros
+  String _selectedCurrency = 'USD';
+  String _conversionType = 'Compra';
+  double _conversionRateCompraUSD = 24.6834;
+  double _conversionRateVentaUSD = 24.8068;
+  double _conversionRateCompraEUR = 24.6834 * 0.9;
+  double _conversionRateVentaEUR = 24.8068 * 0.9;
   final TextEditingController _amountController = TextEditingController();
   double _result = 0.0;
 
